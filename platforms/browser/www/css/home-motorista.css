@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.app-home{
+    background-color: steelblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column
+}
+
+.app-home .titulo{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 5em;
+    font-weight: bold
+}
+
+h2 {
+    color: white
+}
+
+.form-home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.form-home div a{
+    height: 100px;
+    font-size: 4em;
+    border-radius: 25px
+}
